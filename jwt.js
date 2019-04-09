@@ -35,7 +35,7 @@ var JWT = {
 }
 
 if(_Global_JWT_Name_) {
-    window.JWT = _Global_JWT_Name_;
+    window[_Global_JWT_Name_] = JWT;
 } else {
     window.JWT = JWT;
 }
