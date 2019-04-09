@@ -29,3 +29,8 @@ Access your claims like an JS object:
 ```javascript
 console.log("Welcome, ", token.payload.email, "(", token.payload.email, ")");
 ```
+
+No conflict flag:
+```javascript
+_Global_JWT_Name_ = "abc";
+```
