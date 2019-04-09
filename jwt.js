@@ -34,4 +34,9 @@ var JWT = {
     }
 }
 
-window.JWT = JWT;
+if(_Global_JWT_Name_) {
+    window.JWT = _Global_JWT_Name_;
+} else {
+    window.JWT = JWT;
+}
+
